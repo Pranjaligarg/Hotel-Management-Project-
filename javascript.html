@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Student Registration
+</title>
+</head>
+<body>
+<form  onsubmit="return validation()">
+<table  align="center" height="400"  width="50%">
+<tr>
+<td>Name :</td>
+<td> <input type="text" id="Name" name="name">
+<span id="n" style="color:red;"></span>
+<br></td>
+
+</tr>
+<tr>
+<td><button type="submit" name="submit" id = "submit" value="submit" >submit</button></td>
+</tr>
+
+</table>
+
+
+<script type="text/javascript">
+ function validation(){
+ var user = document.getElementById('Name').value;
+
+ if(user == "" )
+ {
+ document.getElementById('n').innerHTML = "insrt name";
+
+ }
+ }
+</script>
+</form>
+</body>
+</html>
