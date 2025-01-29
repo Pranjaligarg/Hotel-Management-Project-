@@ -1,3 +1,3 @@
 # Hotel-Management-Project-
 This is based on Frontend 
-language used in Html,css,javascript
+Html,css,javascript language used in this project
